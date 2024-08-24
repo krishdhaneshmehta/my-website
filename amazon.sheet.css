@@ -1,0 +1,466 @@
+*{
+    margin: 0px;
+    border:border-box;
+}
+
+
+.navbar{
+    background-color: #0F1123;
+    color: white;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+
+.nav-logo{
+    font-size: 2.3rem;
+    margin-top: 10px;
+}
+
+/*------------------- address in navbar --------------*/
+.nav-address{
+    align-items: center;
+}
+.nav-icon{
+    display: flex;
+}
+.nav-first{
+    font-size: 0.95rem;
+    color: #f3f3f3;
+    margin-left: 15px;
+}
+.nav-second{
+    font-size: 1.3rem;
+    align-items: center;
+    margin-left: 3px;
+}
+
+/*---------------------search icon in navbar ------------*/
+.nav-search{
+    display: flex;
+    justify-content:space-evenly;
+    width: 690px;
+    height:40px;
+    margin:15px;
+   border:2.5px solid transparent;
+   border-radius:8px;
+}
+.nav-search:hover{
+    border:2.5px solid #febd68;
+    border-radius: 8px;
+}
+.search-all{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    font-weight:500;
+}
+.Searchinput{
+    width:100%;
+    border:none;
+    font-size: 1.2rem;
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #febd68;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color:#0F1111;
+}
+
+/*------------------------signin navbar --------------------*/
+.sign-first{
+    font-size: 0.95rem;
+    color: #f3f3f3;
+}
+.sign-second{
+    font-size:1.3rem ;
+}
+
+/*-------------------- return in option on navbar ----------*/
+.return-first{
+    font-size: 0.95rem;
+    color: #f3f3f3;
+}
+.return-second{
+    font-size:1.3rem ;
+}
+
+/*------------------ cart option on navbar -----------------*/
+
+.nav-card{
+    display: flex;
+    font-size: 2.1rem;
+}
+.f1-card{
+    font-size: 1.3rem;
+    padding-top: 20px;
+}
+.f2-card{
+    padding-top:10px;
+}
+/*---------------- hover on nav border--------------------*/
+.border{
+    border: 1.8px solid transparent;
+    margin: 10px;
+}
+.border:hover{
+    border: 1.8px solid white;
+    border-radius: 3px;
+}
+
+/*------------------ 2 navbar pannel -----------------*/
+
+.pannel{
+    background-color: #222F3d;
+    color:white;
+    height:40px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight:500;
+}
+.pannel-menu{
+    display: flex;
+    padding-left: 10px;
+}
+.pannel-fr{
+    display:flex;
+    padding:10px;
+    align-items:end;
+
+}
+.pannel-ops{
+    display:flex;
+}
+.pannel-ops p{
+    margin-left: 19px;
+}   
+
+/*----------------- main -------------*/
+
+.hero{
+    margin-left: 5px;
+    justify-content: center;
+}
+
+.hero-section{
+    background-color: rgb(235, 228, 228);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: -350px; 
+}
+
+/*------------------ for border ------------*/
+
+.box{   
+    background-color: white;
+    height: 380px;
+    width:23%;
+    padding:20px 0px 15px;
+    margin-top: 15px;
+}
+/*--------------- box 1 2 3 ----------------*/
+
+.coloum-A{
+    display: flex;
+    justify-content:space-evenly ;
+    padding: 10px;
+}
+.coloum-B{
+    display: flex;
+    justify-content:space-evenly ;
+    padding:10px;
+}
+.box-anchor-1{
+    margin-top: 20px;
+}
+.box-anchor-2{
+    margin:10px;
+}
+/*-------------- box 2 ---------------*/
+
+.box-content{
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    margin-top: 1.9rem;
+}
+.box-content a{
+    text-decoration: none;
+    color:#007185;
+    
+}
+.h2-rap{
+    margin-top: -21px;
+}
+.box-anchor{
+    margin-top: 20px;
+}
+
+/*----------------second coloum -----------*/
+
+.moviebox{
+    width: 714px;
+    flex-wrap: wrap;
+}
+.moviebox a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    padding:1px;
+    font-size: 1.2rem;
+}
+.movieimg{
+    margin-top: -20px;
+    margin-left: -20px;
+}
+.movietitle{
+    margin-top: -410px;
+    margin-left: 20px;
+    color: white;
+}
+.moviename{
+    color: white;
+    margin-left: 20px;
+}
+/*--------------------box 6 ---------------*/
+
+.box8{
+    height:255px;
+    width:1471px;
+}
+.img-box8 img{
+    margin:10px;
+
+}
+/*------------------4th row ------------------*/
+
+.box9{
+    height: 332px;
+    width: 1481px;
+}
+.trip-img{
+    margin-left: 18px;
+}
+/*---------------- box10--------------------*/
+
+.box10 h2{
+    margin-top: -5px;
+    margin-left: 15px;
+}
+.box10 img{
+    height:304px;
+    width: 321px;
+    margin-left: 7px;
+}
+.box10 a{
+    text-decoration: none;
+    color: #007185;
+    margin-left: 10px;
+}
+/*------------- box11 -----------------------*/
+.box11 h2{
+    margin-left: 20px;
+}
+.box11 button{
+    background-color: #cc0c39;
+    color: white;
+    border-radius: 7%;
+    border:1px solid #cc0c39;
+}
+.box11 a{
+    color: #cc0c39;
+}
+.h2-rap11{
+    margin-top: -50px;
+}
+
+/*---------------box 12 -----------------*/
+.box12 h2{
+    margin-left: 15px;
+}
+.box12 img{
+    margin-left: -10px;
+    margin-top: 10px;
+    height: 280px;
+    width: 322px;
+    padding: 10px;
+}
+.box12 a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: #007185;
+}
+/*-------------- box14 ------------------*/
+
+.box14{
+    width:470px;
+    height:290px;
+}
+.box14 h2{
+    margin-top: -15px;
+    margin-left: 10px;
+}
+.run-video{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.box14 h5{
+    margin-left: 10px;
+}
+.smalllink{
+    text-decoration: none;
+}
+.smalllink:hover{
+    color: #cc0c39;
+    text-decoration: none;
+}
+.head{
+    display: flex;
+}
+.head a{
+    margin-top: -10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #007185;
+}
+.head a:hover{
+    color: #cc0c39;
+    text-decoration: underline;
+}
+.forvideo{
+    display: flex;
+}
+/*--------------- box 15 ----------*/
+.box15{
+    margin-left: -1px;
+    height: 290px;
+    width: 1000px;
+    
+}
+.box15 img{
+    margin-top: 50px;
+}
+/*---------------- box 16 -------------*/
+.box16{
+    height: 365px;
+}
+.box16 h2{
+    margin-left: 25px;
+}
+.box16 a{
+    color: #0F1111;
+}
+/*----------------- box17 --------------*/
+.box17{
+    height: 365px;
+}
+.box17 h2{
+    margin-left: 20px;
+}
+.box17 a{
+    color: #0F1111;
+}
+/*---------------box 18 ----------------*/
+.box18{
+    height: 365px;
+}
+.box18 h2{
+    margin-left: 20px;
+}
+.box18 a{
+    color: #0F1111;
+}
+/*--------------- box 19---------------*/
+.box19{
+    height: 365px;
+}
+.box19 h2{
+    margin-left: 20px;
+}
+.box19 a{
+    color: #0F1111;
+}
+/*------------- box20 ----------------*/
+.box20{
+    margin-left: 10px;
+    height: 281px;
+    width: 1465px;
+    
+}
+.box20-img{
+    margin-top: 10px;
+}
+/*-=------------- box21---------------*/
+.box21{
+    margin-left: 10px;
+    height: 281px;
+    width: 1465px;
+    
+}
+/*------------footer--------------*/
+footer{
+    margin-top: 20px;
+}
+.foot-panel1{
+    background-color:#222F3d;
+    color: white;
+    height: 50px;
+    margin-left: -5px;
+    font-size: 0.99rem;
+    justify-content: center;
+   
+    display: flex;
+    align-items: center;
+}
+.foot-panel2{
+    background-color: #0F1123;
+    margin-left: -5px;
+    color:#dddddd;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-panel2 a{
+    display: block;
+    margin-top: 15px;
+}
+.foot-panel2 ul{
+    margin-top: 50px;
+}
+.foot-panel2 a:hover{
+    text-decoration: underline;
+}
+.foot-panel3{
+    background-color:#0F1123;
+    height:76px;
+    border: 0.85px solid white;
+    margin-left: -6px;
+}
+.foot-logo{
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.foot-panel4{
+    margin-left: -5px;
+    background-color:#0F1111;
+    color: white;
+    height: 80px;
+    text-align: center;
+    font-size: 0.85rem;
+}
+.pages{
+    padding-top: 25px;
+}
+
